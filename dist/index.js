@@ -14,4 +14,9 @@ let employee = {
     }
 };
 employee.retire(new Date());
+function greet(name) {
+    return `Hello, ${name}! Welcome to the mini TypeScript project.`;
+}
+const userName = "World";
+console.log(greet(userName));
 //# sourceMappingURL=index.js.map

@@ -31,4 +31,12 @@ let employee : {
 employee.retire(new Date())
 
 
+function greet(name: string): string {
+    return `Hello, ${name}! Welcome to the mini TypeScript project.`;
+}
+
+const userName: string = "World";
+console.log(greet(userName));
+
+
 
